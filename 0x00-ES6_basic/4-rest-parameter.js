@@ -1,1 +1,3 @@
-export default function returnHowManyArguments(a, b, c, ...MyParams) {}
+export default function returnHowManyArguments(a, b, c, ...MyParams) {
+  console.log(MyParams);
+}
