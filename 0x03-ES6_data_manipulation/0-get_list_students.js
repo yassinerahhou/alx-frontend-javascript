@@ -1,5 +1,3 @@
-export default getListStudents;
-
 function getListStudents() {
   const myArray = [
     { id: 1, firstName: "Guillaume", location: "San Francisco" },
@@ -8,3 +6,4 @@ function getListStudents() {
   ];
   return myArray;
 }
+export default getListStudents;
